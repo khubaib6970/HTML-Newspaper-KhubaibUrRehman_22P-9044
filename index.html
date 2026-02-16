@@ -5,36 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Sadaqat Cawnpore - Jan 1, 1948</title>
 </head>
-<!-- 
-  ASSIGNMENT 1: HTML Newspaper Layout Recreation
-  STUDENT: Khubaib [Roll No: 22P-9044]
-  REQUIREMENTS: Semantic HTML5 tags, Table for layout, Inline CSS only.
-  IMAGES: Relative paths to images/ folder provided by student.
--->
 <body style="background-color: #c4b494; font-family: 'Times New Roman', Times, serif; margin: 0; padding: 20px; color: #1a1a1a;">
 
   <div style="background-color: #f4e4bc; max-width: 1050px; margin: 0 auto; border: 4px double #332b1d; padding: 25px; box-shadow: 0 0 40px rgba(0,0,0,0.5);">
     
-    <!-- HEADER SECTION: Using semantic header tag -->
     <header style="border-bottom: 5px double #000; padding-bottom: 10px; margin-bottom: 15px;">
       <div style="display: flex; justify-content: space-between; font-weight: bold; font-size: 14px; margin-bottom: 5px;">
         <span style="border: 1px solid #000; padding: 2px 10px;">REGD. NO. A-405</span>
         <span>ESTD 1925</span>
       </div>
 
-      <!-- Mottoes: Replicating the Urdu headers from the original scan -->
       <div style="display: flex; justify-content: space-around; margin: 10px 0; border-top: 2px solid #000; border-bottom: 2px solid #000; padding: 8px 0; font-weight: bold;">
         <div style="width: 45%; text-align: center; border-right: 1px solid #000;">“A nation’s language is a nation’s identity.”</div>
         <div style="width: 45%; text-align: center;">“A freedom-seeking nation.”</div>
       </div>
 
-      <!-- Text-based Masthead: High-impact typography -->
       <div style="text-align: center; margin: 30px 0;">
         <h1 style="font-size: 95px; margin: 0; letter-spacing: 5px; line-height: 0.8; font-family: Georgia, serif; text-transform: uppercase;">THE SADAQAT</h1>
         <h2 style="font-size: 38px; font-weight: bold; margin-top: 15px;">Cawnpore (Kanpur)</h2>
       </div>
 
-      <!-- NAVIGATION SECTION: Using semantic nav tag -->
       <nav style="text-align: center; border-top: 1px solid #000; border-bottom: 1px solid #000; padding: 6px 0; margin-bottom: 15px; font-weight: bold; text-transform: uppercase; font-size: 14px;">
         Front Page &bull; World News &bull; Literary Corner &bull; Editorial &bull; Classifieds
       </nav>
@@ -46,10 +36,9 @@
       </div>
     </header>
 
-    <!-- MAIN BODY: Using table for columnar newspaper layout -->
+    <!-- MAIN BODY -->
     <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
       <tr>
-        <!-- LEFT COLUMN: Main News Feed -->
         <td style="vertical-align: top; width: 64%; border-right: 2px solid #000; padding-right: 20px;">
           
           <section>
@@ -57,7 +46,6 @@
               <h2 style="margin: 0; font-size: 26px; letter-spacing: 2px;">DUNYA-E-ISLAM (WORLD OF ISLAM)</h2>
             </div>
 
-            <!-- NEWS ARTICLE 1 -->
             <article style="border-bottom: 1px solid #000; padding-bottom: 20px; margin-bottom: 20px;">
               <h3 style="font-size: 32px; margin: 0 0 15px 0; color: #800; line-height: 1.1;">Fears of Renewed War Between Arabs and Jews</h3>
               <img src="images/1948.jpg" alt="Diplomatic Talks" style="width: 45%; float: right; margin-left: 15px; border: 1px solid #000;">
@@ -66,7 +54,6 @@
               </p>
             </article>
 
-            <!-- NEWS ARTICLE 2: Expanded text -->
             <article style="border-bottom: 1px solid #000; padding-bottom: 20px; margin-bottom: 20px;">
               <h3 style="font-size: 30px; margin: 0 0 15px 0; font-weight: bold; background-color: #eee; padding: 5px;">Egyptian Prime Minister Nuqrashi Pasha Assassinated</h3>
               <img src="images/Mahmoud_Fahmy_El_Nokrashy_Pasha_1945 (1).png" alt="Nuqrashi Pasha Portrait" style="width: 35%; float: left; margin-right: 15px; border: 1px solid #000;">
@@ -75,7 +62,6 @@
               </p>
             </article>
 
-            <!-- NEWS ARTICLE 3: Expanded text -->
             <article style="border-bottom: 1px solid #000; padding-bottom: 20px; margin-bottom: 20px;">
               <h3 style="font-size: 26px; margin: 0 0 10px 0;">King Abdullah: Protector of Christians, Official Statement</h3>
               <img src="images/images.jpg" alt="King Abdullah Representatives" style="width: 35%; float: right; margin-left: 10px; border: 1px solid #000;">
@@ -84,7 +70,6 @@
               </p>
             </article>
 
-            <!-- NEWS ARTICLE 4: Expanded text -->
             <article>
               <h3 style="font-size: 24px; margin: 0 0 10px 0;">New Grand Mufti for Palestine Appointed Amidst Resignations</h3>
               <img src="images/Amin_al-Husseini_1929_(3x4_cropped).jpg" alt="Mufti Portrait" style="width: 30%; float: left; margin-right: 10px; border: 1px solid #000;">
@@ -95,10 +80,8 @@
           </section>
         </td>
 
-        <!-- RIGHT COLUMN: Pricing and Literature -->
         <td style="vertical-align: top; width: 36%; padding-left: 20px;">
           
-          <!-- PRICING SECTION: Moved above Adabiyat as requested -->
           <aside style="border: 1px solid #000; padding: 10px; margin-bottom: 20px; font-size: 13px; background-color: #fff;">
             <h5 style="margin: 0 0 5px 0; text-align: center; text-decoration: underline;">JOURNAL PRICING</h5>
             <ul style="padding-left: 20px; margin: 0; line-height: 1.6;">
@@ -114,7 +97,6 @@
               <h4 style="margin: 0; font-size: 22px;">ADABIYAT (LITERATURE)</h4>
             </header>
 
-            <!-- Poetry Article -->
             <article style="border: 3px solid #000; padding: 15px; background-color: #fff;">
               <h3 style="text-align: center; font-style: italic; border-bottom: 1px solid #000; padding-bottom: 8px; margin-top: 0; font-size: 20px;">Farmoodāt-e-Hazrat ‘Ārif</h3>
               
@@ -136,7 +118,6 @@
       </tr>
     </table>
 
-    <!-- FOOTER SECTION: Using semantic footer tag -->
     <footer style="margin-top: 40px; border-top: 6px double #000; padding-top: 15px; text-align: center; font-weight: bold; font-size: 15px;">
       <div>Printed and Published by: Khwaja Abdul Wahid Intezami Press, Cawnpore</div>
       <div>Editor: Khwaja Abdussalam</div>
@@ -147,4 +128,5 @@
 
   </div>
 </body>
+
 </html>
